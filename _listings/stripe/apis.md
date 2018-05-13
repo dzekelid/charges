@@ -25,15 +25,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stripe Add Charges Charge Dispute Close
-  description: Post Charges, Charge, Dispute, Close
+- name: Stripe Add Charges Charge Refund
+  description: Post Charges, Charge, Refund
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Charges
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/stripe/charges-charge-dispute-close-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/stripe/charges-charge-refund-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
