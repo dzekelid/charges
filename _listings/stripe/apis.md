@@ -25,20 +25,18 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stripe Get Charges Charge
-  description: Retrieves the details of a charge that has previously been created.
-    Supply the unique charge ID that was returned from your previous request, and
-    Stripe will return the corresponding charge information. The same information
-    is returned when creating or refunding the charge.
+- name: Stripe Add Charges Charge
+  description: Updates the specified charge by setting the values of the parameters
+    passed. Any parameters not provided will be left unchanged.This request accepts
+    only the customer, description, fraud_details, metadata, receipt_email, and shipping
+    arguments.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Charges
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/stripe/charges-charge-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/stripe/charges-charge-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/stripe/charges-charge-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
