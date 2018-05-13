@@ -25,19 +25,17 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stripe Add Charges Charge Capture
-  description: Capture the payment of an existing, uncaptured, charge. This is the
-    second half of the two-step payment flow, where first you created a charge with
-    the capture option set to false.Uncaptured payments expire exactly seven days
-    after they are created. If they are not captured by that point in time, they will
-    be marked as refunded and will no longer be capturable.
+- name: Stripe Get Charges Charge Dispute
+  description: Get Charges, Charge, Dispute
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Charges
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/stripe/charges-charge-capture-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/stripe/charges-charge-dispute-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/stripe/charges-charge-dispute-get-postman.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
