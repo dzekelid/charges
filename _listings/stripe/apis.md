@@ -1,15 +1,16 @@
 ---
 name: Stripe
 x-slug: stripe
-description: 'Stripe is a simple, developer-friendly way to accept payments online.
-  They believe that enabling transactions on the web is a problem rooted in code,
-  not finance, and they want to help put more websites in business. '
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+description: Online payment processing for internet businesses. Stripe is a suite
+  of payment APIs that powers commerce for online businesses of all sizes, including
+  fraud prevention, and subscription management. Use Stripe???s payment platform to
+  accept and process p...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "1793"
 tags: Charges
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
@@ -17,7 +18,7 @@ apis:
   x-api-slug: stripe
   description: "Returns a list of charges you\u2019ve previously created. The charges
     are returned in sorted order, with the most recent charges appearing first."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges
   tags: Charges
@@ -29,7 +30,7 @@ apis:
 - name: Stripe Add Charges
   x-api-slug: stripe
   description: Post Charges
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges
   tags: Charges
@@ -42,7 +43,7 @@ apis:
     Supply the unique charge ID that was returned from your previous request, and
     Stripe will return the corresponding charge information. The same information
     is returned when creating or refunding the charge.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}
   tags: Charges, Charge
@@ -57,7 +58,7 @@ apis:
     passed. Any parameters not provided will be left unchanged.This request accepts
     only the customer, description, fraud_details, metadata, receipt_email, and shipping
     arguments.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}
   tags: Charges, Charge
@@ -71,7 +72,7 @@ apis:
     the capture option set to false.Uncaptured payments expire exactly seven days
     after they are created. If they are not captured by that point in time, they will
     be marked as refunded and will no longer be capturable.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/capture
   tags: Charges, Charge, Capture
@@ -81,7 +82,7 @@ apis:
 - name: Stripe Get Charges Charge Dispute
   x-api-slug: stripe
   description: Get Charges, Charge, Dispute
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/dispute
   tags: Charges, Charge, Dispute
@@ -93,7 +94,7 @@ apis:
 - name: Stripe Add Charges Charge Dispute
   x-api-slug: stripe
   description: Post Charges, Charge, Dispute
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/dispute
   tags: Charges, Charge, Dispute
@@ -103,7 +104,7 @@ apis:
 - name: Stripe Add Charges Charge Dispute Close
   x-api-slug: stripe
   description: Post Charges, Charge, Dispute, Close
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/dispute/close
   tags: Charges, Charge, Dispute, Close
@@ -113,7 +114,7 @@ apis:
 - name: Stripe Add Charges Charge Refund
   x-api-slug: stripe
   description: Post Charges, Charge, Refund
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/refund
   tags: Charges, Charge, Refund
@@ -126,7 +127,7 @@ apis:
     that the 10 most recent refunds are always available by default on the charge
     object. If you need more than those 10, you can use this API method and the limit
     and starting_after parameters to page through additional refunds.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/refunds
   tags: Charges, Charge, Refunds
@@ -138,7 +139,7 @@ apis:
 - name: Stripe Add Charges Charge Refunds
   x-api-slug: stripe
   description: Post Charges, Charge, Refunds
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/refunds
   tags: Charges, Charge, Refunds
@@ -148,7 +149,7 @@ apis:
 - name: Stripe Get Charges Charge Refunds Refund
   x-api-slug: stripe
   description: Get Charges, Charge, Refunds, Refund
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/refunds/{refund}
   tags: Charges, Charge, Refunds, Refund
@@ -160,7 +161,7 @@ apis:
 - name: Stripe Add Charges Charge Refunds Refund
   x-api-slug: stripe
   description: Post Charges, Charge, Refunds, Refund
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/refunds/{refund}
   tags: Charges, Charge, Refunds, Refund
@@ -170,7 +171,7 @@ apis:
 - name: Stripe
   x-api-slug: stripe
   description: Web and mobile payments, built for developers.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Charges
@@ -188,6 +189,22 @@ x-common:
   url: https://stripe.com/docs/upgrades
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/stripe
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/stripe
+- type: x-email
+  url: info@stripe.com
+- type: x-email
+  url: privacy@stripe.com
+- type: x-email
+  url: atlas@stripe.com
+- type: x-email
+  url: notices@stripe.com
+- type: x-email
+  url: jane.diaz@stripe.com
+- type: x-email
+  url: nonprofit@stripe.com
+- type: x-email
+  url: support@stripe.com
 - type: x-github
   url: https://github.com/stripe
 - type: x-pricing
@@ -196,6 +213,8 @@ x-common:
   url: https://twitter.com/stripe
 - type: x-website
   url: https://stripe.com/
+- type: x-website
+  url: http://stripe.com
 include: []
 maintainers:
 - FN: Kin Lane
