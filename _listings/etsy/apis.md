@@ -6,38 +6,18 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.j
 x-kinRank: "9"
 x-alexaRank: "187"
 tags: Charges
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Etsy Get Users User Charges
-  x-api-slug: etsy
-  description: Retrieves a set of BillCharge objects associated to a User.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/charges
-  tags: Users,Charges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/etsy/usersuser-idcharges-get-openapi.md
-- name: Etsy
-  x-api-slug: etsy
-  description: Etsy is a handmade marketplace. The Etsy API lets developers tap into
-    the Etsy community, building their own Etsy-powered applications for the web,
-    desktop and mobile devices. Applications built on the API will connect buyers
-    with sellers, promote the handmade lifestyle, and support the craftspeople who
-    sell on Etsy.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private/
-  tags: Charges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/etsy/openapi.md
+apis: []
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/etsy.json
+- type: x-api-gallery
+  url: http://esme.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://etsy.stack.network
 - type: x-application-gallery
   url: https://www.etsy.com/apps/
 - type: x-base

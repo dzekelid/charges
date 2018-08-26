@@ -4,8 +4,8 @@ x-collection-name: Stripe
 x-complete: 0
 info:
   title: Stripe Get Charges
-  description: "Returns a list of charges you\u2019ve previously created. The charges
-    are returned in sorted order, with the most recent charges appearing first."
+  description: Returns a list of charges you???ve previously created. The charges
+    are returned in sorted order, with the most recent charges appearing first.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
@@ -24,9 +24,8 @@ paths:
   /charges:
     get:
       summary: Get Charges
-      description: "Returns a list of charges you\u2019ve previously created. The
-        charges are returned in sorted order, with the most recent charges appearing
-        first."
+      description: Returns a list of charges you???ve previously created. The charges
+        are returned in sorted order, with the most recent charges appearing first.
       operationId: getCharges
       x-api-path-slug: charges-get
       parameters:

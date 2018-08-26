@@ -2,7 +2,7 @@
   "info": {
     "name": "Stripe Get Charges",
     "_postman_id": "4e68dc8c-6af9-4cd3-8fd4-da0fe0b7e379",
-    "description": "Returns a list of charges you’ve previously created. The charges are returned in sorted order, with the most recent charges appearing first.",
+    "description": "Returns a list of charges you???ve previously created. The charges are returned in sorted order, with the most recent charges appearing first.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
@@ -18,7 +18,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "Returns a list of charges you’ve previously created"
+            "description": "Returns a list of charges you???ve previously created"
           },
           "response": [
             {
