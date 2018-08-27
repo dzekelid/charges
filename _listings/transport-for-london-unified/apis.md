@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Charges
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/transport-for-london-unified/apis.md
 specificationVersion: "0.14"
 apis:
@@ -61,6 +61,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/transport-for-london-unified/occupancychargeconnectorids-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/transport-for-london-unified/occupancychargeconnectorids-get-openapi.md
+- name: Transport for London Unified - Occupancy  Charge Connector s
+  x-api-slug: occupancychargeconnectorids-get
+  description: Gets the occupancy for a charge connectors with a given id (sourcesystemplaceid).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png
+  humanURL: https://tfl.gov.uk/
+  baseURL: https://api.tfl.gov.uk//
+  tags: Transportation, Transit, General Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/transport-for-london-unified/occupancychargeconnectorids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/transport-for-london-unified/occupancychargeconnectorids-get-openapi.md
+- name: Transport for London Unified - Occupancy  Charge Connector
+  x-api-slug: occupancychargeconnector-get
+  description: Gets the occupancy for all charge connectors.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png
+  humanURL: https://tfl.gov.uk/
+  baseURL: https://api.tfl.gov.uk//
+  tags: Transportation, Transit, General Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/transport-for-london-unified/occupancychargeconnector-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/transport-for-london-unified/occupancychargeconnector-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://transitfeeds.api.gallery.streamdata.io

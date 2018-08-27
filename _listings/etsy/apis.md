@@ -6,11 +6,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.j
 x-kinRank: "9"
 x-alexaRank: "187"
 tags: Charges
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Etsy - Get Users User Charges
+  x-api-slug: usersuser-idcharges-get
+  description: Retrieves a set of BillCharge objects associated to a User.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/etsy/usersuser-idcharges-get-openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/etsy.json

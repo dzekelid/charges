@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Charges
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,166 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminapplication-charges-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminapplication-charges-json-get-openapi.md
+- name: Shopify API - Create a new one-time application charge.
+  x-api-slug: adminapplication-charges-json-post
+  description: Create a new one-time application charge..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminapplication-charges-json-post-openapi.md
+- name: Shopify API - Retrieve one-time application charge
+  x-api-slug: adminapplication-charges1-json-get
+  description: Retrieve one-time application charge.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminapplication-charges1-json-get-openapi.md
+- name: Shopify API - Activate a one-time charge
+  x-api-slug: adminapplication-charges675931192activate-json-post
+  description: Activate a one-time charge.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminapplication-charges675931192activate-json-post-openapi.md
+- name: Shopify API - Create a new charge
+  x-api-slug: adminrecurring-application-charges-json-post
+  description: Create a new charge.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminrecurring-application-charges-json-post-openapi.md
+- name: Shopify API - Create a new one-time application charge.
+  x-api-slug: adminapplication-charges-json-post
+  description: Create a new one-time application charge..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminapplication-charges-json-post-openapi.md
+- name: Shopify API - Retrieve one-time application charge
+  x-api-slug: adminapplication-charges1-json-get
+  description: Retrieve one-time application charge.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminapplication-charges1-json-get-openapi.md
+- name: Shopify API - Activate a one-time charge
+  x-api-slug: adminapplication-charges675931192activate-json-post
+  description: Activate a one-time charge.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminapplication-charges675931192activate-json-post-openapi.md
+- name: Shopify API - Create a new charge
+  x-api-slug: adminrecurring-application-charges-json-post
+  description: Create a new charge.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminrecurring-application-charges-json-post-openapi.md
+- name: Shopify API - Create a new charge
+  x-api-slug: adminrecurring-application-charges-json-post
+  description: Create a new charge.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminrecurring-application-charges-json-post-openapi.md
+- name: Shopify API - Create a new charge
+  x-api-slug: adminrecurring-application-charges-json-post
+  description: Create a new charge.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminrecurring-application-charges-json-post-openapi.md
+- name: Shopify API - Activate a one-time charge
+  x-api-slug: adminapplication-charges675931192activate-json-post
+  description: Activate a one-time charge.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminapplication-charges675931192activate-json-post-openapi.md
+- name: Shopify API - Activate a one-time charge
+  x-api-slug: adminapplication-charges675931192activate-json-post
+  description: Activate a one-time charge.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminapplication-charges675931192activate-json-post-openapi.md
+- name: Shopify API - Retrieve one-time application charge
+  x-api-slug: adminapplication-charges1-json-get
+  description: Retrieve one-time application charge.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminapplication-charges1-json-get-openapi.md
+- name: Shopify API - Retrieve one-time application charge
+  x-api-slug: adminapplication-charges1-json-get
+  description: Retrieve one-time application charge.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminapplication-charges1-json-get-openapi.md
+- name: Shopify API - Create a new one-time application charge.
+  x-api-slug: adminapplication-charges-json-post
+  description: Create a new one-time application charge..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminapplication-charges-json-post-openapi.md
+- name: Shopify API - Create a new one-time application charge.
+  x-api-slug: adminapplication-charges-json-post
+  description: Create a new one-time application charge..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charges/master/_listings/shopify/adminapplication-charges-json-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://ship.station.api.gallery.streamdata.io
